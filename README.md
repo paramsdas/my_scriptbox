@@ -2,7 +2,7 @@
 Scriptbox to make some basic changes to windows systems :)
 
 What the script does:
-  * Installs scoop (https://scoop.sh/)
+  * Installs scoop (https://scoop.sh/) - [disabled currently]
   * Adds a new custom profile for the **current user**
 
 ## Usage instructions
