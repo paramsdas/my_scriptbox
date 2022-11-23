@@ -1,1 +1,2 @@
-Write-Host "Hello Param, welcome back" -ForegroundColor Green
+# Set your own start directory here
+Set-Location "D:/Workspace/"
