@@ -1,16 +1,27 @@
-$env:user_name = "param0unt"
-
 $line = "==============="
 
-for ($i = 0; $i -lt $env:user_name.Length; $i++) {
+$user_name = [System.Environment]::GetEnvironmentVariable('user_name')
+$user_working_directory = [System.Environment]::GetEnvironmentVariable('user_working_directory')
+
+if ($user_name.Length -eq 0) {
+    $user_name = "User"
+}
+
+for ($i = 0; $i -lt $user_name.Length; $i++) {
     $line = $line + "="
 }
 
 Write-Host 
 Write-Host $line
-Write-Host "|  Welcome $env:user_name!  |"
+Write-Host -NoNewline "|  Welcome "
+Write-Host -NoNewline "$user_name" -ForegroundColor DarkCyan
+Write-Host "!  |"
 Write-Host $line
 Write-Host
+
+if ($user_working_directory.Length -ne 0) {
+    Set-Location $user_working_directory
+}
 
 function prompt {
     [array] $git_status = git status
@@ -20,7 +31,7 @@ function prompt {
         $branch_name = $match.Matches.Groups[1].Value
     }
     $current_directory = Get-Location
-    Write-Host -NoNewline "$env:user_name" -ForegroundColor DarkCyan
+    Write-Host -NoNewline "$user_name" -ForegroundColor DarkCyan
     if ($branch_name -cne "") {
         Write-Host -NoNewline " [$current_directory] <$branch_name> :" -ForegroundColor Green
     }

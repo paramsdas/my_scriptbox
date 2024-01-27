@@ -15,6 +15,9 @@ else {
 
 Remove-Item .\scoop_version.txt
 
+Invoke-Expression "$PSScriptRoot\scoop_apps\yq.ps1"
+Invoke-Expression "$PSScriptRoot\scoop_apps\git.ps1"
+
 Write-Host 
 Write-Host "Scoop has been set up. Have fun installing apps!"
 Write-Host

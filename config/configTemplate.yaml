@@ -1,0 +1,8 @@
+user:
+  name: # default: "User"
+git:
+  user:
+    name: # default empty
+    email: # default empty
+  # Plan to use to add ssh key to ssh agent in the profile
+  # privateSShKeyPath: 
