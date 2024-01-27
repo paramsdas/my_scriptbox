@@ -8,7 +8,7 @@ What the script does:
 ## Usage instructions
 * Clone this repository using git: <code>git clone https://github.com/PSDas-2000/my_scriptbox.git</code>
 * Navigate to local directory for the repository in powershell
-* Make a copy of .\config\configTemplate.yaml and name it as config.yaml [Details](#customizable-configuration )
+* Make a copy of .\config\configTemplate.yaml and name it as config.yaml [[Details]](#customizable-configuration )
 * Fill out the configurations in the yaml file
 * run <code>.\Init.ps1</code>
 
