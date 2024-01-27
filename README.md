@@ -2,7 +2,9 @@
 **Basic setup script for windows computers**
 
 What the script does:
-  * Installs scoop (https://scoop.sh/)
+  * Installs scoop (https://scoop.sh/). The following apps are installed along with scoop
+    - [git](https://github.com/git/git)
+    - [yq](https://github.com/mikefarah/yq)
   * Adds a new custom profile for the **current user** (CurrentUserCurrentHost)
 
 ## Usage instructions
