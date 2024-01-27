@@ -12,7 +12,7 @@ What the script does:
 * Navigate to local directory for the repository in powershell
 * Make a copy of .\config\configTemplate.yaml and name it as config.yaml [[Details]](#customizable-configuration )
 * Fill out the configurations in the yaml file
-* run <code>.\Init.ps1</code>
+* run <code>.\Init.ps1</code> as an administrator
 
 ## Customizable Configuration
 
