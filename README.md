@@ -1,5 +1,5 @@
 # my_scriptbox
-Basic setup script for windows computers
+**Basic setup script for windows computers**
 
 What the script does:
   * Installs scoop (https://scoop.sh/)
