@@ -8,7 +8,7 @@ What the script does:
   * Adds a new custom profile for the **current user** (CurrentUserCurrentHost)
 
 ## Usage instructions
-* Clone this repository using git: <code>git clone https://github.com/PSDas-2000/my_scriptbox.git</code>
+* Download this repository as a zip file or clone it using git if already installed: <code>git clone https://github.com/PSDas-2000/my_scriptbox.git</code>
 * Navigate to local directory for the repository in powershell
 * Make a copy of .\config\configTemplate.yaml and name it as config.yaml [[Details]](#customizable-configuration )
 * Fill out the configurations in the yaml file
