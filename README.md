@@ -23,7 +23,7 @@ Configurations which can help to set up your computer more specifically. The spe
 | .git.user.email | Sets the global git user.email | - |
 | .git.user.name | Sets the global git user.name | - |
 | .user.name | Sets a user name which is used in the user profile | ```User``` |
-| .scoop.app_list | List of apps that will be installed using scoop if .scoop.install_from_config is ```true```  | - |
-| .scoop.bucket_list | List of buckets that will be added to scoop if .scoop.install_from_config is ```true``` | - |
+| .scoop.app_list | List of apps that will be installed using scoop if ".scoop.install_from_config" is ```true```  | - |
+| .scoop.bucket_list | List of buckets that will be added to scoop if ".scoop.install_from_config" is ```true``` | - |
 | .scoop.install_from_config | Can be used to enable installation of more apps and buckets from scoop | ```false``` |
 
