@@ -5,4 +5,10 @@ git:
     name: # default empty
     email: # default empty
   # Plan to use to add ssh key to ssh agent in the profile
-  # privateSShKeyPath: 
+  # privateSShKeyPath:
+scoop:
+  installFromConfig: false
+  bucketList: # adds following buckets to scoop
+    # - extras
+  appList: # install following apps from the store (already installed apps can be viewed by using the command 'scoop list')
+    # - 7zip

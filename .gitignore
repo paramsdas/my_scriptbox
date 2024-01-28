@@ -1,3 +1,4 @@
 **/test/
 *.txt
 /config/config.yaml
+/config/config_stripped.yaml

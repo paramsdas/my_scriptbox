@@ -1,19 +1,19 @@
-$line = "== == == == == == == == == =="
+$line = "== == == == == == == == == == == == == == == == == == == == == == == == == =="
 ################################################################################
 Write-Host $line
 Write-Host 
-Write-Host "Starting script setup..." -ForegroundColor Yellow
+Write-Host "Starting script setup..." -ForegroundColor Green
 Write-Host
-############################  Scoop  ###########################################
+################################  Scoop  #######################################
 Write-Host $line
 .\subscripts\scoop.ps1
-############################  Profile  #########################################
+###############################  Profile  ######################################
 Write-Host $line
 .\subscripts\setup_profile.ps1
 ################################################################################
 Write-Host $line
 Write-Host
-Write-Host "All scripts have been updated!" -ForegroundColor Green
+Write-Host "Setup complete!" -ForegroundColor Green
 Write-Host
 Write-Host $line
 ################################################################################
