@@ -25,7 +25,7 @@ else {
   [System.Environment]::SetEnvironmentVariable('user_working_directory', "", 'User')
 }
 
-if ($user_enable_powershell_prediction -ne 0) {
+if ($user_enable_powershell_prediction -eq "false") {
   [System.Environment]::SetEnvironmentVariable('user_enable_powershell_prediction', "$user_enable_powershell_prediction", 'User')
 }
 else {
