@@ -1,9 +1,11 @@
 user:
   name: # default: "User"
+  workingDirectory: # default: windows working directory
+  enablePowerShellPrediction: false
 git:
   user:
-    name: # default empty
-    email: # default empty
+    name: # default: empty
+    email: # default: empty
   # Plan to use to add ssh key to ssh agent in the profile
   # privateSShKeyPath:
 scoop:

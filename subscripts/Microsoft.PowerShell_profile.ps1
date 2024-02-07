@@ -2,6 +2,11 @@ $line = "==============="
 
 $user_name = [System.Environment]::GetEnvironmentVariable('user_name')
 $user_working_directory = [System.Environment]::GetEnvironmentVariable('user_working_directory')
+$user_enable_powershell_prediction = [System.Environment]::GetEnvironmentVariable('user_enable_powershell_prediction')
+
+if (! $user_enable_powershell_prediction) {
+  Set-PSReadLineOption -PredictionSource None
+}
 
 if ($user_name.Length -eq 0) {
   $user_name = "User"
