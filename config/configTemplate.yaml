@@ -8,6 +8,7 @@ git:
   # privateSShKeyPath:
 scoop:
   installFromConfig: false
+  setStartUpJob: false
   bucketList: # adds following buckets to scoop
     # - extras
   appList: # install following apps from the store (already installed apps can be viewed by using the command 'scoop list')
