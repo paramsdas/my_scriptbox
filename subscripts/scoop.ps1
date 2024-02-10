@@ -28,7 +28,7 @@ Add-ScoopApp -AppName yq
 Add-ScoopApp -AppName git
 
 # Load other apps and buckets from the config file using scoop
-$scoop_from_config = Get-Content $PSScriptRoot\..\config\config_stripped.yaml | yq '.scoop.install_from_config'
+$scoop_from_config = Get-Content $PSScriptRoot\..\config\config_stripped.yaml | yq '.scoop.installFromConfig'
 if ($scoop_from_config -eq "true") {
   Write-Host
   Write-Host "=== Installing scoop apps/buckets from config ==="

@@ -19,7 +19,7 @@ for ($i = 0; $i -lt $user_name.Length; $i++) {
 Write-Host 
 Write-Host $line
 Write-Host -NoNewline "|  Welcome "
-Write-Host -NoNewline "$user_name" -ForegroundColor DarkCyan
+Write-Host -NoNewline "$user_name" -ForegroundColor Green
 Write-Host "!  |"
 Write-Host $line
 Write-Host
@@ -36,9 +36,9 @@ function prompt {
     $branch_name = $match.Matches.Groups[1].Value
   }
   $current_directory = Get-Location
-  Write-Host -NoNewline "$user_name" -ForegroundColor DarkCyan
+  Write-Host -NoNewline "$user_name" -ForegroundColor Green
   if ($branch_name -cne "") {
-    Write-Host -NoNewline " [$current_directory] <$branch_name> :" -ForegroundColor Green
+    Write-Host -NoNewline " [$current_directory] <$branch_name> :" -ForegroundColor DarkCyan
   }
   else {
     Write-Host -NoNewline " [$current_directory] :" -ForegroundColor DarkBlue
