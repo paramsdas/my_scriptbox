@@ -1,3 +1,4 @@
 **/test/
 *.txt
 **/personal/
+config/PersonalProfileConfig.ps1
