@@ -1,0 +1,24 @@
+user:
+  name: bob
+  workingDirectory: D:\workspace
+  enablePowerShellPrediction: false
+git:
+  user:
+    name: Bob
+    email: mymailaddress@mailprovider.domainsuffix
+scoop:
+  # set to true to enable installing the apps specified in the list below (appList)
+  installFromConfig: true
+  bucketList:
+    - main
+    - extras
+    - nerd-fonts
+    - versions
+  appList:
+    # install following apps from the store (already installed apps can be viewed by using the command 'scoop list')
+    - 7zip
+    - JetBrains-Mono
+    - vlc
+    - vscode
+    - firefox-developer
+    - thunderbird

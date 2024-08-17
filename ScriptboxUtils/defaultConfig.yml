@@ -1,0 +1,15 @@
+retainYq: true
+user:
+  name: User
+  workingDirectory:
+  enablePowerShellPrediction: false
+scoop:
+  installFromConfig: false
+  bucketList:
+    # - extras
+  appList:
+    # - 7zip
+git:
+  user:
+    name:
+    email:
